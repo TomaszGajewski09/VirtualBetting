@@ -1,0 +1,7 @@
+package com.projekt.VirtualBetting.exception;
+
+public class InsufficientBalanceException extends Exception {
+    public InsufficientBalanceException(String message) {
+        super(message);
+    }
+}
